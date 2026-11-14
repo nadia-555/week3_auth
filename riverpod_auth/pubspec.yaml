@@ -1,0 +1,20 @@
+name: riverpod_auth
+description: Student authentication system - MVC + Repository with Riverpod 2.x state management.
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
